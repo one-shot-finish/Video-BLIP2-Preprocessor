@@ -38,7 +38,7 @@ class PreProcessVideos:
         self.random_start_frame = random_start_frame
         self.clip_frame_data = clip_frame_data
         self.max_frames = max_frames
-        self.vid_types = (".mp4", ".avi", ".mov", ".webm", ".flv", ".mjpeg")
+        self.vid_types = (".mp4", ".avi", ".mov", ".webm", ".flv", ".mjpeg", "gif")
 
         # Parameters for BLIP2
         self.processor = None
